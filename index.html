@@ -9,7 +9,7 @@
         body {
             font-family: 'Poppins', sans-serif;
             text-align: center;
-            background-color: #121212;
+            background: url('https://example.com/formatura-oscar-bg.jpg') no-repeat center center/cover;
             color: white;
             padding: 20px;
         }
@@ -71,15 +71,27 @@
             <label><input type="radio" name="embromation" value="Candidato 1"> Candidato 1</label>
             <label><input type="radio" name="embromation" value="Candidato 2"> Candidato 2</label>
         </div>
-        
         <div class="container">
             <h3>Influencer do Curso</h3>
             <label><input type="radio" name="influencer" value="Candidato 1"> Candidato 1</label>
             <label><input type="radio" name="influencer" value="Candidato 2"> Candidato 2</label>
         </div>
-        
-        <!-- Adicione aqui as outras categorias seguindo o mesmo modelo -->
-        
+        <div class="container">
+            <h3>Internado no Estágio</h3>
+            <label><input type="radio" name="estagio" value="Candidato 1"> Candidato 1</label>
+            <label><input type="radio" name="estagio" value="Candidato 2"> Candidato 2</label>
+        </div>
+        <div class="container">
+            <h3>Paciente da UTI do Sono</h3>
+            <label><input type="radio" name="sono" value="Candidato 1"> Candidato 1</label>
+            <label><input type="radio" name="sono" value="Candidato 2"> Candidato 2</label>
+        </div>
+        <div class="container">
+            <h3>Especialista em Alta Hospitalar</h3>
+            <label><input type="radio" name="alta" value="Candidato 1"> Candidato 1</label>
+            <label><input type="radio" name="alta" value="Candidato 2"> Candidato 2</label>
+        </div>
+        <!-- Adicionar as demais categorias -->
         <button type="submit">Enviar Voto</button>
     </form>
     <p id="message"></p>
